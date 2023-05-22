@@ -110,4 +110,9 @@ public class Calculator {
         String newString = getFirstString().replace(getSecondString(), " ");
         return newString;
     }
+
+    public String divisionString1() {
+        String newString = getFirstString().replace(getSecondString(), " ");
+        return newString;
+    }
 }

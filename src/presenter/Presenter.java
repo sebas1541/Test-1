@@ -108,7 +108,7 @@ public class Presenter {
     public void divisionString() {
         calculator.setFirstString(view.readString("Ingrese su cadena de texto"));
         calculator.setSecondString(view.readString("Ingrese el caracter a remplazar para convertir en subcadenas"));
-        view.showMessage("la division es " + calculator.divisionString() + "\n");
+        view.showMessage("la division de este cuestion es:  " + calculator.divisionString() + "\n");
     }
 
     public void end() {
