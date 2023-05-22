@@ -96,7 +96,7 @@ public class Presenter {
     public void substractionString() {
         calculator.setFirstString(view.readString("Ingrese su cadena de texto"));
         calculator.setSubstractionStringNumber(view.readInt("Ingrese su número para restar los primeros caracteres por izquierda"));
-        view.showMessage("la resta es " + calculator.subStrings() + "\n");
+        view.showMessage("la resta de los strings es: " + calculator.subStrings() + "\n");
     }
 
     public void timesString() {
